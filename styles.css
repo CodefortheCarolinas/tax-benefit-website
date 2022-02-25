@@ -1,0 +1,9 @@
+.contentWrapper{
+    margin:2%;
+}
+
+.map{
+    width:50%; 
+    display:block; 
+    margin: 0 auto;
+}
