@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 body{
-  font-size: 62.5%
+  font-size: 62.5%;
 }
 
 /* Utility classes */
@@ -27,11 +27,6 @@ body{
   margin: 0 auto;
 }
 
-.text-md-start{
-  font-size: 0.90rem;
-  line-height: 20px;
-}
-
 .contentWrapper{
     margin: 0 auto;
 }
@@ -50,6 +45,8 @@ nav .container-fluid{
   width: 80%;
 }
 p {
+  font-size: 1.2rem;
+  line-height: 30px;
   width: 80%;
   margin: 2rem auto;
 }
