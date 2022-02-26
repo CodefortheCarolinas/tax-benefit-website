@@ -1,9 +1,76 @@
-.contentWrapper{
-    margin:2%;
+* {
+  font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", sans-serif;
+  box-sizing: border-box;
+}
+body{
+  font-size: 62.5%
 }
 
+/* Utility classes */
+.bg-primary {
+  background-color: #000 !important;
+}
+
+.blue-bg{
+  background-color: #C6F9EC;
+}
+
+.main-heading {
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 2rem auto 1rem;
+  font-weight: 900;
+  width: 80%;
+}
+.width-regular{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text-md-start{
+  font-size: 0.90rem;
+  line-height: 20px;
+}
+
+.contentWrapper{
+    margin: 0 auto;
+}
+.map-container {
+  background-color: #C6F9EC;
+  padding: 1rem 0;
+}
 .map{
     width:50%; 
     display:block; 
     margin: 0 auto;
+}
+ 
+/* Layout Styling */
+nav .container-fluid{
+  width: 80%;
+}
+p {
+  width: 80%;
+  margin: 2rem auto;
+}
+.messages {
+  display: flex;
+  align-items: center;
+  padding: 1rem 10%;
+  background-color: #ffd699 ;
+}
+footer {
+  padding: 1rem;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+}
+footer h4{
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+footer h4:first-child {
+  margin-bottom: 0.5rem;
 }
