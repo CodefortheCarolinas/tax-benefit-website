@@ -1,11 +1,13 @@
 * {
-  font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", sans-serif;
+  font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    sans-serif;
   box-sizing: border-box;
 }
-html{
+html {
   font-size: 62.5%;
 }
-body{
+body {
   font-size: 1rem;
 }
 
@@ -14,8 +16,8 @@ body{
   background-color: #000 !important;
 }
 
-.blue-bg{
-  background-color: #C6F9EC;
+.blue-bg {
+  background-color: #c6f9ec;
 }
 
 .main-heading {
@@ -25,26 +27,26 @@ body{
   font-weight: 900;
   width: 80%;
 }
-.width-regular{
+.width-regular {
   width: 80%;
   margin: 0 auto;
 }
 
-.contentWrapper{
-    margin: 0 auto;
+.contentWrapper {
+  margin: 0 auto;
 }
 .map-container {
-  background-color: #C6F9EC;
+  background-color: #c6f9ec;
   padding: 1rem 0;
 }
-.map{
-    width:50%; 
-    display:block; 
-    margin: 0 auto;
+.map {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
 }
- 
+
 /* Layout Styling */
-nav .container-fluid{
+nav .container-fluid {
   width: 80%;
 }
 p {
@@ -57,9 +59,9 @@ p {
   display: flex;
   align-items: center;
   padding: 1rem 10%;
-  background-color: #ffd699 ;
+  background-color: #ffd699;
 }
-.navbar-brand{
+.navbar-brand {
   font-size: 2.5rem;
 }
 footer {
@@ -70,7 +72,7 @@ footer {
   display: flex;
   flex-direction: column;
 }
-footer h4{
+footer h4 {
   font-size: 1.9rem;
   margin-bottom: 0;
 }
@@ -78,11 +80,17 @@ footer h4:first-child {
   margin-bottom: 1rem;
 }
 
-.contact-us{
+.contact-us {
   color: #fff;
 }
 
-.contact-us:hover{
+.contact-us:hover {
   color: #fff;
   opacity: 75%;
+}
+/* Responsive styling */
+@media only screen and (min-width: 1200px) {
+  p {
+    width: 65%;
+  }
 }
