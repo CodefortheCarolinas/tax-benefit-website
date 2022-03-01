@@ -77,3 +77,12 @@ footer h4{
 footer h4:first-child {
   margin-bottom: 1rem;
 }
+
+.contact-us{
+  color: #fff;
+}
+
+.contact-us:hover{
+  color: #fff;
+  opacity: 75%;
+}
