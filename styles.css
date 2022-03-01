@@ -90,6 +90,8 @@ footer h4:first-child {
 }
 /* Responsive styling */
 @media only screen and (min-width: 1200px) {
+  .main-heading,
+  .container-fluid,
   p {
     width: 65%;
   }
