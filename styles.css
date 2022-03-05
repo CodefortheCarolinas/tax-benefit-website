@@ -1,13 +1,11 @@
 * {
-  font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    sans-serif;
+  font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", sans-serif;
   box-sizing: border-box;
 }
-html {
+html{
   font-size: 62.5%;
 }
-body {
+body{
   font-size: 1rem;
 }
 
@@ -16,8 +14,8 @@ body {
   background-color: #000 !important;
 }
 
-.blue-bg {
-  background-color: #c6f9ec;
+.blue-bg{
+  background-color: #C6F9EC;
 }
 
 .main-heading {
@@ -27,26 +25,26 @@ body {
   font-weight: 900;
   width: 80%;
 }
-.width-regular {
+.width-regular{
   width: 80%;
   margin: 0 auto;
 }
 
-.contentWrapper {
-  margin: 0 auto;
+.contentWrapper{
+    margin: 0 auto;
 }
 .map-container {
-  background-color: #c6f9ec;
+  background-color: #C6F9EC;
   padding: 1rem 0;
 }
-.map {
-  width: 30rem;
-  display: block;
-  margin: 0 auto;
+.map{
+    width:50%; 
+    display:block; 
+    margin: 0 auto;
 }
-
+ 
 /* Layout Styling */
-.container-fluid {
+nav .container-fluid{
   width: 80%;
 }
 p {
@@ -56,24 +54,12 @@ p {
   margin: 2rem auto;
 }
 .messages {
-  background-color: #ffd699;
-  padding: 1rem 0;
-}
-.messages-container {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 80%;
-  margin: 0 auto;
+  padding: 1rem 10%;
+  background-color: #ffd699 ;
 }
-.messages-icon {
-  width: 15%;
-  margin-right: 2rem;
-}
-.messages-text {
-  width: 100%;
-}
-.navbar-brand {
+.navbar-brand{
   font-size: 2.5rem;
 }
 footer {
@@ -84,7 +70,7 @@ footer {
   display: flex;
   flex-direction: column;
 }
-footer h4 {
+footer h4{
   font-size: 1.9rem;
   margin-bottom: 0;
 }
@@ -92,64 +78,11 @@ footer h4:first-child {
   margin-bottom: 1rem;
 }
 
-.contact-us {
+.contact-us{
   color: #fff;
 }
 
-.contact-us:hover {
+.contact-us:hover{
   color: #fff;
   opacity: 75%;
-}
-/* Responsive styling */
-@media only screen and (max-width: 650px) {
-  .main-heading {
-    font-size: 4.5rem;
-    line-height: 5rem;
-  }
-  p {
-    font-size: 1.75rem;
-    line-height: 2.3rem;
-  }
-  .messages-icon {
-    display: none;
-  }
-  .footer-text:last-of-type {
-    width: 60%;
-    margin: 0 auto;
-  }
-}
-@media only screen and (min-width: 650px) {
-  .map {
-    width: 50rem;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .messages-container,
-  .main-heading,
-  .container-fluid,
-  p {
-    width: 65%;
-  }
-  .map {
-    width: 65rem;
-  }
-}
-@media only screen and (min-width: 1600px) {
-  .messages-container,
-  .main-heading,
-  .container-fluid,
-  p {
-    width: 55%;
-  }
-  .map {
-    width: 80rem;
-  }
-}
-@media only screen and (min-width: 2000px) {
-  .messages-icon {
-    width: 10%;
-  }
-  .contentWrapper > p:last-of-type {
-    text-align: center !important;
-  }
 }
