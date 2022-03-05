@@ -10,5 +10,5 @@ In building the site, the Code for the Carolinas team worked to ensure accessibi
 ## Contribution
 We ask that any contributions to this site be made by first creating a branch off of this GitHub repository and creating a pull request. If you want, you may assign your request to XX or XX for an assured review. 
 
-# Code for America
+## Code for America
 This project operates under the Code for America Code of Conduct https://github.com/CodefortheCarolinas/codeofconduct.
